@@ -65,6 +65,8 @@ and enables you to develop raw images and enhance them.
 %setup -q
 
 %build
+export CC=gcc
+export CXX=g++
 %cmake \
 	-DCMAKE_LIBRARY_PATH:PATH=%{_libdir} \
 	-DDONT_INSTALL_GCONF_SCHEMAS:BOOLEAN=ON \
