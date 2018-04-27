@@ -69,7 +69,7 @@ BuildRequires:	pkgconfig(sqlite3)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(zlib)
-BuildRequires:	python-jsonschema
+#BuildRequires:	python-jsonschema
 Requires:	gphoto2
 
 %description
