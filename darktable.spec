@@ -62,7 +62,7 @@ BuildRequires:	pkgconfig(libtiff-4)
 BuildRequires:	pkgconfig(libwebp) >= 0.3.0
 BuildRequires:	pkgconfig(lua)
 BuildRequires:	pkgconfig(OpenEXR)
-BuildRequires:	pkgconfig(osmgpsmap-1.0) >= 1.1.0
+#BuildRequires:	pkgconfig(osmgpsmap-1.0) >= 1.1.0
 BuildRequires:	pkgconfig(pangocairo)
 BuildRequires:	pkgconfig(sdl)
 BuildRequires:	pkgconfig(sqlite3)
